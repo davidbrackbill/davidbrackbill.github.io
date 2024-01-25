@@ -1,3 +1,7 @@
 .git/**
 .idea/**
 venv/**
+templates/**
+contexts/**
+
+*.sh
