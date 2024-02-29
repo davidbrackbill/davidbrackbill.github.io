@@ -12,11 +12,29 @@
     
   </ul>
 
-<h1>Reach me at:</h1>
 
-    <h2><a href=https://github.com/davidbrackbill>Github</a></h2>
+<footer>
 
-    <h2><a href=https://www.linkedin.com/in/brackbill>LinkedIn</a></h2>
+  <p>Reach me at</p>
+  <br>
 
-    <h2><a href=mailto:dmbrackbill@gmail.com>Email</a></h2>
+  <ul>
+    <li><a href=https://github.com/davidbrackbill>Github</a></li>
 
+    <li><a href=https://www.linkedin.com/in/brackbill>LinkedIn</a></li>
+
+    <li><a href=mailto:dmbrackbill@gmail.com>Email</a></li>
+
+  </ul>
+</footer>
+
+
+<style>
+
+footer * {
+  list-style: none;
+  display: inline;
+  list-style-type: none;
+}
+
+</style>

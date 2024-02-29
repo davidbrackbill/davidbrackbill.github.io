@@ -8,10 +8,10 @@
             <a href="{base}/">David Brackbill</a>
         </h1>
         <ul class="header-links">
-            <li><a href="{base}/">Home</a></li>
-            <li><a href="{base}/resume">Resume</a></li>
             <li><a href="{base}/projects">Projects</a></li>
             <li><a href="{base}/blog">Blog</a></li>
+            <li><a href="https://github.com/davidbrackbill">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/brackbill">LinkedIn</a></li>
         </ul>
     </header>
 
@@ -20,8 +20,12 @@
 
 <style>
 
+header { 
+    padding: 0px 0px 20px 0px; 
+}
+
 #wrap {
-    width: 70%;
+    width: 60% 1;
     max-width: 45em;
     margin: 0 auto;
     position: relative;
