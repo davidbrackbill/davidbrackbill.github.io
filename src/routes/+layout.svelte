@@ -2,9 +2,9 @@
     import { base } from '$app/paths';
 </script>
 
-<div id="wrap">
+<body id="wrap">
     <header>
-        <h1>
+        <h1 class="header-home">
             <a href="{base}/">David Brackbill</a>
         </h1>
         <ul class="header-links">
@@ -16,12 +16,16 @@
     </header>
 
     <slot />
-</div>
+</body>
 
 <style>
 
 header { 
     padding: 0px 0px 20px 0px; 
+    display:flex;
+    width:fit-content;
+    margin:auto;
+    align-items: center;
 }
 
 #wrap {
@@ -34,31 +38,22 @@ header {
     height: auto;
 }
 
-header {
-  display:bock;
-  width:fit-content;
-  margin:auto;
+.header-home {
+    align-self: center;
 }
 
 .header-links {
-    text-align: right;
-    display: inline-block;
     position: absolute;
-    right: 0px;
-    top: 0px;
-    margin: 1em 35px;
+    margin: 2em 15em;
+    padding-top: 3em;
 }
 
 ul {
   justify-content: flex-end;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 10px 0px 0px 0px;
   width: 60px;
 }
 
-li a {
-  display: block;
-}
 
 </style>

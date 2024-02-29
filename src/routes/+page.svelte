@@ -2,13 +2,13 @@
 <h1>About me</h1>
   <ul>
 
-    <li>I'm an intermediate Data Engineer with close to two years of experience building in Python and Node.JS.</li>
+    <li>I'm a generalist SWE with two years of professional experience building Python and Node.js backends.</li>
+    
+    <li>My stack competencies are Svelte, AWS, Postgres, Redis and Linux.</li>
+    
+    <li>I'm equally at home working on deployment, managing REST endpoints and writing data pipelines.</li>
 
-    <li>My background is in data science, with a BS in Statistics and Data Science from UC Santa Barbara.</li>
-
-    <li>I'm equally at home improving CI/CD pipelines and writing ETL into PostgreSQL, MySQL and Neo4j.</li>
-
-    <li>I also like to use Clojure in side projects.</li>
+    <li>Statistics is my first passion and I have a BS in Statistics and Data Science from UC Santa Barbara.</li>
     
   </ul>
 
