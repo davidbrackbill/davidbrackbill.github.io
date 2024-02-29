@@ -2,16 +2,59 @@
     import { base } from '$app/paths';
 </script>
 
-<header>
-    <h1>
-        <a href="{base}/">David Brackbill</a>
-    </h1>
-    <nav>
-        <a href="{base}/">Home</a>
-        <a href="{base}/resume">Resume</a>
-        <a href="{base}/projects">Projects</a>
-        <a href="{base}/blog">Blog</a>
-    </nav>
-</header>
+<div id="wrap">
+    <header>
+        <h1>
+            <a href="{base}/">David Brackbill</a>
+        </h1>
+        <ul class="header-links">
+            <li><a href="{base}/">Home</a></li>
+            <li><a href="{base}/resume">Resume</a></li>
+            <li><a href="{base}/projects">Projects</a></li>
+            <li><a href="{base}/blog">Blog</a></li>
+        </ul>
+    </header>
 
-<slot />
+    <slot />
+</div>
+
+<style>
+
+#wrap {
+    width: 70%;
+    max-width: 45em;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    /* border: 1px red solid; */
+    height: auto;
+}
+
+header {
+  display:bock;
+  width:fit-content;
+  margin:auto;
+}
+
+.header-links {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 1em 35px;
+}
+
+ul {
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+}
+
+</style>
