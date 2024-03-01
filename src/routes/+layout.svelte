@@ -20,10 +20,6 @@
 
 <style>
 
-header { 
-    padding: 0px 0px 20px 0px; 
-}
-
 :global(.side-flex) {
     display:flex;
     width:fit-content;
@@ -45,6 +41,11 @@ header {
     position: absolute;
     margin: 2em 15em;
     padding-top: 3em;
+}
+
+
+header { 
+    padding: 0px 0px 20px 0px; 
 }
 
 ul {

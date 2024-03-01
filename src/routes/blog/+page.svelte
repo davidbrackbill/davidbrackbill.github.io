@@ -117,7 +117,6 @@
 }
 
 a {
-    color: white;
     font-size: 20px;
 }
 
