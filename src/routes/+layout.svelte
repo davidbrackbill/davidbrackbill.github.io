@@ -2,7 +2,6 @@
     import { base } from '$app/paths';
 </script>
 
-<body>
 <div class="wrap">
     <header class="side-flex">
         <h1 class="header-home">
@@ -18,7 +17,6 @@
 
     <slot />
 </div>
-</body >
 
 <style>
 
