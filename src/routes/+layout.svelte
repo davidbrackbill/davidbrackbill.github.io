@@ -2,8 +2,9 @@
     import { base } from '$app/paths';
 </script>
 
-<body id="wrap">
-    <header>
+<body>
+<div class="wrap">
+    <header class="side-flex">
         <h1 class="header-home">
             <a href="{base}/">David Brackbill</a>
         </h1>
@@ -16,19 +17,23 @@
     </header>
 
     <slot />
-</body>
+</div>
+</body >
 
 <style>
 
 header { 
     padding: 0px 0px 20px 0px; 
+}
+
+:global(.side-flex) {
     display:flex;
     width:fit-content;
     margin:auto;
     align-items: center;
 }
 
-#wrap {
+.wrap {
     width: 60% 1;
     max-width: 45em;
     margin: 0 auto;
