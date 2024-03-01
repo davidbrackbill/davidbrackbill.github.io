@@ -4,7 +4,7 @@
 
 <div class="wrap">
     <header class="side-flex">
-        <h1 class="header-home">
+        <h1>
             <a href="{base}/">David Brackbill</a>
         </h1>
         <ul class="header-links">
@@ -39,10 +39,6 @@ header {
     min-height: 100%;
     /* border: 1px red solid; */
     height: auto;
-}
-
-.header-home {
-    align-self: center;
 }
 
 .header-links {
