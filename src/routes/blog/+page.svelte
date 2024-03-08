@@ -2,24 +2,25 @@
     import { base } from '$app/paths';
 </script>
 
-<div class="side-flex align-start">
+<div class="flex items-start w-fit m-auto pb-4">
 
-    <div class="nav-text nav-sticky">
-        <ul>
+    <div class="sticky mt-28 top-0">
+        <ul class="nav-text">
             <li><a href="#2024">2024</a></li>
             <li><a href="#2023">2023</a></li>
+        </ul>
     </div>
 
     <div><!--Align splash and articles as siblings-->
 
    <!--Splash-->
-    <div class="article-offset">
+    <div class="pl-6">
         <h1>Writing on the technical spectrum</h1>
         <p>I do technical blogging about Python, Postgres, and distributed systems. I also post relevant tidbits about the learning process for systems programming and UI frameworks like Svelte.</p>
     </div>
 
    <!--Articles-->
-    <div class="article-offset article-border">
+    <div class="pl-6 article-border">
         <h2 id="2024">2024</h2>
         <div>
             <a href="{base}/psql_poly">Polymorphic functions in Postgres</a>
@@ -92,24 +93,10 @@
 
 <style>
 
-.align-start {
-    align-items: flex-start;
-}
-
-.nav-sticky {
-    position: sticky;
-    top: 0;
-    margin-top: 120px;
-}
-
 .nav-text a {
     text-decoration: none;
     font-family: ui-monospace;
     font-size: 16px;
-}
-
-.article-offset {
-    padding-left: 24px;
 }
 
 .article-border {

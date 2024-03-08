@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/*Globals*/
+
+html {
+    scrollbar-gutter: stable;
+}
+
+body {
+    @apply w-8/12 items-center mx-auto;
+}
+
+h1 {
+    @apply font-semibold text-xl pb-2
+}
+
 a {
     color: white;
     text-decoration: none;
