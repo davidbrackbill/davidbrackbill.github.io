@@ -9,11 +9,11 @@ html {
 }
 
 body {
-    @apply w-8/12 items-center mx-auto;
+    @apply w-3/5 items-center mx-auto;
 }
 
 h1 {
-    @apply font-semibold text-xl pb-2
+    @apply font-semibold text-2xl pb-2
 }
 
 a {
