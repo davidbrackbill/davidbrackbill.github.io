@@ -4,7 +4,7 @@
 
 <div class="flex items-start w-fit m-auto pb-4">
 
-    <div class="sticky mt-24 top-0">
+    <div class="sticky mt-32 top-0">
         <ul class="monospace w-12 justify-start">
             <li><a href="#2024">2024</a></li>
             <li><a href="#2023">2023</a></li>
